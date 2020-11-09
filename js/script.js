@@ -10,6 +10,31 @@ var student ={
 }
 
 for(var key in student){
-  
+  console.log(student[key]);
+
 }
-console.log(student)
+
+
+
+
+var classe = [
+  {
+    'nome': "Pino",
+    'cognome': "Trani",
+
+  },
+  {
+    'nome': "Squall",
+    'cognome': "Panda",
+
+  },
+  {
+    'nome': "Cristiano",
+    'cognome': "Leopardo",
+
+  },
+];
+
+for (var i = 0; i < classe.length; i++) {
+  console.log(classe[i].nome + ' ' + classe[i].cognome);
+}
