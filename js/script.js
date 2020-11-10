@@ -38,3 +38,17 @@ var classe = [
 for (var i = 0; i < classe.length; i++) {
   console.log(classe[i].nome + ' ' + classe[i].cognome);
 }
+
+
+
+
+
+
+var newStudent = {
+  'nome' : prompt("inserisci il nome dell\'alunno"),
+  'cognome': prompt("inserisci il cognome"),
+  'eta': prompt("inserisci l\ età"),
+};
+classe.push(newStudent);
+console.log(newStudent);
+console.log(classe);
